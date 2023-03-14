@@ -10,7 +10,7 @@ function writePassword() {
 
   var length = Number(prompt("Enter the length of your password between 8-128 characters"));
   var char = prompt("What should we include in your password? Type 'uppercase, lowercase, numbers, symbols' to include");
-  var passwordText = document.querySelector(#password);
+  var passwordText = document.querySelector("#password");
 
   function password() {
     var passwordGen = {
